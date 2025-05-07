@@ -10,7 +10,6 @@ pip install -r requirements.txt
 /path/to/data/
 ├── clinical_var/
 │   ├── version_1/
-
 ├── Fold_0/
 │   ├── train/
 │   └── valid/
