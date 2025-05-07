@@ -8,9 +8,17 @@ The dataset file (names Parkinson.py) is structured for all three tasks.
 If lesion masks are unavailable or segmentation is not needed, the dataset file will need to be modified.
 
 ## ✅ Requirements
-    pip install -r requirements.txt
+The project is based on a PyTorch Docker image with specific CUDA and cuDNN versions.
+
+- **PyTorch:** 1.12.0  
+- **CUDA:** 11.3  
+- **cuDNN:** 8  
+
+To install the required Python libraries:  
+- ```pip install -r requirements.txt```
 
 ## 📦 Data preprocessing
+
 
 ## 📂 Data structure
     /your_project/
@@ -80,11 +88,12 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
 
 ## 🧪 Testing
 
+
 ## ⭐ Paper (for citation)
 - to be updated once published
 
 ## 🙏 Acknowledgement
-Our code was modified based on the released code at [SMART-Net](https://github.com/mi2rl/SMART-Net) and [PyTorch 3D UNet](https://github.com/wolny/pytorch-3dunet).
+Our code was modified based on the released codes at [SMART-Net](https://github.com/mi2rl/SMART-Net) and [PyTorch 3D UNet](https://github.com/wolny/pytorch-3dunet).
 
 ## 📧 Contact
 For questions or inquiries, please contact:
