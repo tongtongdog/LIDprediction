@@ -11,6 +11,7 @@ pip install -r requirements.txt
 ## 📦 Data preprocessing
 
 ## 📂 Data structure
+'''
 /your_project/
 ├── clinical_var/
 │   ├── Fold_0/
@@ -64,7 +65,7 @@ pip install -r requirements.txt
     ├── NM_0015_no_mask.nii.gz   # Mask file for woLID group in test set
     ├── NM_0025_yes_img.nii.gz   # Image file for wLID group in test set
     └── NM_0025_yes_mask.nii.gz  # Mask file for wLID group in test set
-
+'''
 
 ## 🔒 Data availability
 The data utilized in this study are not publicly accessible due to patient privacy concerns. 
