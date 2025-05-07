@@ -6,7 +6,7 @@ The dataset file (names Parkinson.py) is structured for all three tasks.
 If lesion masks are unavailable or segmentation is not needed, the dataset file will need to be modified.
 
 ## ✅ Requirements
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## 📦 Data preprocessing
 
