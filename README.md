@@ -11,59 +11,59 @@ pip install -r requirements.txt
 ## 📦 Data preprocessing
 
 ## 📂 Data structure
-/your_project/
-├── clinical_var/
-│   ├── Fold_0/
-│   │   ├── train.xlsx           # Clinical variables for training set in Fold_0
-│   │   └── valid.xlsx           # Clinical variables for validation set in Fold_0
-│   ├── Fold_1/
-│   │   ├── train.xlsx
-│   │   └── valid.xlsx
-│   ├── Fold_2/
-│   │   ├── train.xlsx
-│   │   └── valid.xlsx
-│   ├── Fold_3/
-│   │   ├── train.xlsx
-│   │   └── valid.xlsx
-│   ├── Fold_4/
-│   │   ├── train.xlsx
-│   │   └── valid.xlsx
-│   └── test/
-│       └── test.xlsx            # Clinical variables for the test set
-│
-├── Fold_0/
-│   ├── train/
-│   │   ├── NM_0007_no_img.nii.gz   # Image file for woLID group
-│   │   ├── NM_0007_no_mask.nii.gz  # Mask file for woLID group
-│   │   ├── NM_0024_yes_img.nii.gz  # Image file for wLID group
-│   │   └── NM_0024_yes_mask.nii.gz # Mask file for wLID group
-│   └── valid/
-│       ├── NM_0014_no_img.nii.gz
-│       ├── NM_0014_no_mask.nii.gz
-│       ├── NM_0024_yes_img.nii.gz
-│       └── NM_0024_yes_mask.nii.gz
-│
-├── Fold_1/
-│   ├── train/
-│   └── valid/
-│
-├── Fold_2/
-│   ├── train/
-│   └── valid/
-│
-├── Fold_3/
-│   ├── train/
-│   └── valid/
-│
-├── Fold_4/
-│   ├── train/
-│   └── valid/
-│
-└── test/
-    ├── NM_0015_no_img.nii.gz    # Image file for woLID group in test set
-    ├── NM_0015_no_mask.nii.gz   # Mask file for woLID group in test set
-    ├── NM_0025_yes_img.nii.gz   # Image file for wLID group in test set
-    └── NM_0025_yes_mask.nii.gz  # Mask file for wLID group in test set
+    /your_project/
+    ├── clinical_var/
+    │   ├── Fold_0/
+    │   │   ├── train.xlsx           # Clinical variables for training set in Fold_0
+    │   │   └── valid.xlsx           # Clinical variables for validation set in Fold_0
+    │   ├── Fold_1/
+    │   │   ├── train.xlsx
+    │   │   └── valid.xlsx
+    │   ├── Fold_2/
+    │   │   ├── train.xlsx
+    │   │   └── valid.xlsx
+    │   ├── Fold_3/
+    │   │   ├── train.xlsx
+    │   │   └── valid.xlsx
+    │   ├── Fold_4/
+    │   │   ├── train.xlsx
+    │   │   └── valid.xlsx
+    │   └── test/
+    │       └── test.xlsx            # Clinical variables for the test set
+    │
+    ├── Fold_0/
+    │   ├── train/
+    │   │   ├── NM_0007_no_img.nii.gz   # Image file for woLID group
+    │   │   ├── NM_0007_no_mask.nii.gz  # Mask file for woLID group
+    │   │   ├── NM_0024_yes_img.nii.gz  # Image file for wLID group
+    │   │   └── NM_0024_yes_mask.nii.gz # Mask file for wLID group
+    │   └── valid/
+    │       ├── NM_0014_no_img.nii.gz
+    │       ├── NM_0014_no_mask.nii.gz
+    │       ├── NM_0024_yes_img.nii.gz
+    │       └── NM_0024_yes_mask.nii.gz
+    │
+    ├── Fold_1/
+    │   ├── train/
+    │   └── valid/
+    │
+    ├── Fold_2/
+    │   ├── train/
+    │   └── valid/
+    │
+    ├── Fold_3/
+    │   ├── train/
+    │   └── valid/
+    │
+    ├── Fold_4/
+    │   ├── train/
+    │   └── valid/
+    │
+    └── test/
+        ├── NM_0015_no_img.nii.gz    # Image file for woLID group in test set
+        ├── NM_0015_no_mask.nii.gz   # Mask file for woLID group in test set
+        ├── NM_0025_yes_img.nii.gz   # Image file for wLID group in test set
+        └── NM_0025_yes_mask.nii.gz  # Mask file for wLID group in test set
 
 
 ## 🔒 Data availability
