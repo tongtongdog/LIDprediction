@@ -1,5 +1,5 @@
 # LID onset prediction for Parkinson's disease
-Binary prediction of LID in patients with Parkinson's Disease using multi-task learning.
+Binary prediction (wLID vs. woLID) of LID in patients with Parkinson's Disease using multi-task learning.
 The published paper used image classification and reconstruction for multi-task learning, but the code also covers a lesion segmentation task.
 User can choose and combine tasks from classification, segmentation, and reconstruction.
 The dataset file (names Parkinson.py) is structured for all three tasks.
