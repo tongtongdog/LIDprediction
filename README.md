@@ -72,6 +72,9 @@ If lesion masks are unavailable or segmentation is not needed, the dataset file 
 The data utilized in this study are not publicly accessible due to patient privacy concerns. 
 Requests to access the data may be considered upon contact and IRB approval. Please contact us via email for inquiries.
 
+- A snapshot of a sample image visualized using ITK-SNAP is provided.  
+- An example excel file (.xlsx) containing clinical variables is also provided.  
+
 ## 🚀 Training
 
 
