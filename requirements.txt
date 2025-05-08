@@ -1,0 +1,18 @@
+## this list does not include the built-in Python modules
+## built-in Python modules needed
+## argparse collections datetime functools json math random pathlib re
+
+einops
+jupyterlab
+medpy
+monai
+openpyxl
+scikit-image
+scikit-learn
+scipy==1.7.3
+seaborn
+shap==0.42.1
+SimpleITK
+xgboost==1.6.2
+xlsxwriter
+nibabel
