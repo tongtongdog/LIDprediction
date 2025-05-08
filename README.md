@@ -31,17 +31,9 @@ To install the required Python libraries:
     |   │   │   ├── train.xlsx           # Clinical variables for training set in Fold_0
     |   │   │   └── valid.xlsx           # Clinical variables for validation set in Fold_0
     |   │   ├── Fold_1/
-    |   │   │   ├── train.xlsx
-    |   │   │   └── valid.xlsx
     |   │   ├── Fold_2/
-    |   │   │   ├── train.xlsx
-    |   │   │   └── valid.xlsx
     |   │   ├── Fold_3/
-    |   │   │   ├── train.xlsx
-    |   │   │   └── valid.xlsx
     |   │   ├── Fold_4/
-    |   │   │   ├── train.xlsx
-    |   │   │   └── valid.xlsx
     |   │   └── test/
     |   │       └── test.xlsx            # Clinical variables for the test set
     |   │
@@ -58,20 +50,12 @@ To install the required Python libraries:
     |   │       └── NM_0024_yes_mask.nii.gz
     |   │
     |   ├── Fold_1/
-    |   │   ├── train/
-    |   │   └── valid/
     |   │
     |   ├── Fold_2/
-    |   │   ├── train/
-    |   │   └── valid/
     |   │
     |   ├── Fold_3/
-    |   │   ├── train/
-    |   │   └── valid/
     |   │
     |   ├── Fold_4/
-    |   │   ├── train/
-    |   │   └── valid/
     |   │
     |   └── test/
     |       ├── NM_0015_no_img.nii.gz    # Image file for woLID group in test set
