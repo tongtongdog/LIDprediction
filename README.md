@@ -20,7 +20,8 @@ To install the required Python libraries:
 - ```pip install -r requirements.txt```
 
 ## 📦 Data preprocessing
-
+- Image preprocessing: SPM12 on Matlab R2022b  
+- Data preparation for cross-validation: preparation_for_cross_validation.ipynb
 
 ## 📂 Data structure
     /your_project/
