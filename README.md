@@ -12,7 +12,9 @@ The project is based on a PyTorch Docker image with specific CUDA and cuDNN vers
 
 - **PyTorch:** 1.12.0  
 - **CUDA:** 11.3  
-- **cuDNN:** 8  
+- **cuDNN:** 8
+
+The Dockerfile used to build the docker image is also provided.
 
 To install the required Python libraries:  
 - ```pip install -r requirements.txt```
