@@ -92,7 +92,7 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
     --model-name 'Up_SMART_Net_Dual_CLS_REC' \ 
     --num-workers 10 --pin-mem --training-stream 'Upstream' \
     --multi-gpu-mode 'DataParallel' --cuda-visible-devices '0'\
-    --from-pretrained-0 '/workspace/checkpoints_ablation_study_100/epoch_{best_epoch[0]}_checkpoint.pth'\
+    --from-pretrained-0 '/workspace/checkpoints_ablation_study_100/epoch_149_checkpoint.pth'\
     --checkpoint-total-num 1 --print-freq 1 --output-dir '/workspace/checkpoints_ablation_study_100/test'
 - Please refer to example_run.py files for more details on testing in the setting of 5-fold cross-validation
 
