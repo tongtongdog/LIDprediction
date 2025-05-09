@@ -104,7 +104,7 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
 - to be updated once published
 
 ## 🙏 Acknowledgement
-Our code was modified based on the released codes at [SMART-Net](https://github.com/mi2rl/SMART-Net) and [PyTorch 3D UNet](https://github.com/wolny/pytorch-3dunet).
+Our code was modified based on the released codes at [SMART-Net](https://github.com/mi2rl/SMART-Net) and [PyTorch 3D UNet](https://github.com/wolny/pytorch-3dunet), which are under the MIT License.
 
 ## 📧 Contact
 For questions or inquiries, please contact:
