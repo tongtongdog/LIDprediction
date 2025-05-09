@@ -88,7 +88,8 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
 - Please refer to example_run.py files for more details on training in the setting of 5-fold cross-validation
 
 ## 🧪 Testing
-    python test_k_fold.py --data-folder-dir '/workspace/data_folder' \
+    python test_k_fold.py \
+    --data-folder-dir '/workspace/data_folder' \
     --model-name 'Up_SMART_Net_Dual_CLS_REC' \ 
     --num-workers 10 --pin-mem --training-stream 'Upstream' \
     --multi-gpu-mode 'DataParallel' --cuda-visible-devices '0'\
