@@ -77,10 +77,28 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
 - An example excel file (.xlsx) containing clinical variables is also provided.  
 
 ## 🚀 Training
-
+    python train.py \
+    --data-folder-dir '/workspace/data_folder' \
+    --model-name 'Up_SMART_Net_Dual_CLS_REC' \
+    --batch-size 33 --epochs 300 --num-workers 38 --pin-mem --lr-scheduler 'poly_lr' \
+    --lr 1e-3 --min-lr 1e-4 --early-stop-epoch 150 --training-stream 'Upstream' \
+    --multi-gpu-mode 'DataParallel' --cuda-visible-devices '0' --print-freq 1 \
+    --output-dir '/workspace/checkpoints_ablation_study_100' \
+    --output-dir-2 '/workspace/valid_results_ablation_study_100
+- please refer to example_run.py files for more details on training in the setting of 5-fold cross-validation
 
 ## 🧪 Testing
-
+    python test_k_fold.py --data-folder-dir '/workspace/data_folder' \
+    --model-name 'Up_SMART_Net_Dual_CLS_REC' \ 
+    --num-workers 10 --pin-mem --training-stream 'Upstream' \
+    --multi-gpu-mode 'DataParallel' --cuda-visible-devices '0'\
+    --from-pretrained-0 '/workspace/checkpoints_ablation_study_100/Fold_0/epoch_{best_epoch[0]}_checkpoint.pth'\
+    --from-pretrained-1 '/workspace/checkpoints_ablation_study_100/Fold_1/epoch_{best_epoch[1]}_checkpoint.pth'\
+    --from-pretrained-2 '/workspace/checkpoints_ablation_study_100/Fold_2/epoch_{best_epoch[2]}_checkpoint.pth'\
+    --from-pretrained-3 '/workspace/checkpoints_ablation_study_100/Fold_3/epoch_{best_epoch[3]}_checkpoint.pth'\
+    --from-pretrained-4 '/workspace/checkpoints_ablation_study_100/Fold_4/epoch_{best_epoch[4]}_checkpoint.pth'\
+    --checkpoint-total-num 5 --print-freq 1 --output-dir '/workspace/checkpoints_ablation_study_100/test'
+- please refer to example_run.py files for more details on testing in the setting of 5-fold cross-validation
 
 ## ⭐ Paper (for citation)
 - to be updated once published
