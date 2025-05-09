@@ -85,7 +85,7 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
     --multi-gpu-mode 'DataParallel' --cuda-visible-devices '0' --print-freq 1 \
     --output-dir '/workspace/checkpoints_ablation_study_100' \
     --output-dir-2 '/workspace/valid_results_ablation_study_100
-- please refer to example_run.py files for more details on training in the setting of 5-fold cross-validation
+- Please refer to example_run.py files for more details on training in the setting of 5-fold cross-validation
 
 ## 🧪 Testing
     python test_k_fold.py --data-folder-dir '/workspace/data_folder' \
@@ -98,7 +98,10 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
     --from-pretrained-3 '/workspace/checkpoints_ablation_study_100/Fold_3/epoch_{best_epoch[3]}_checkpoint.pth'\
     --from-pretrained-4 '/workspace/checkpoints_ablation_study_100/Fold_4/epoch_{best_epoch[4]}_checkpoint.pth'\
     --checkpoint-total-num 5 --print-freq 1 --output-dir '/workspace/checkpoints_ablation_study_100/test'
-- please refer to example_run.py files for more details on testing in the setting of 5-fold cross-validation
+- Please refer to example_run.py files for more details on testing in the setting of 5-fold cross-validation
+
+## 🤖 Machine learning
+- Please refer to machine_learning.ipynb
 
 ## ⭐ Paper (for citation)
 - to be updated once published
