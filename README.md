@@ -101,7 +101,7 @@ Requests to access the data may be considered upon contact and IRB approval. Ple
 - Please refer to machine_learning.ipynb
 
 ## ⭐ Paper (for citation)
-- to be updated once published
+- Lee, G.Y., Won, J., Kim, S. et al. Baseline [18F]FP-CIT PET-based deep learning prediction of levodopa-induced dyskinesia in Parkinson’s disease. npj Parkinsons Dis. 11, 125 (2025). https://doi.org/10.1038/s41531-025-00982-5
 
 ## 🙏 Acknowledgement
 Our code was modified based on the released codes at [segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch), [SMART-Net](https://github.com/mi2rl/SMART-Net), and [PyTorch 3D UNet](https://github.com/wolny/pytorch-3dunet), which are under the MIT License.
